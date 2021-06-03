@@ -1,0 +1,277 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar {
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.navbar .logo {
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 600;
+    color: #263238;
+}
+
+.menu-navbar a {
+    margin: 0 1rem 0 1rem;
+}
+
+.menu-navbar .btn {
+    padding: 8px 20px 8px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.btn-login {
+    border: 2px solid;
+    border-color: #0169EE;
+    color: #0169EE;
+    text-transform: uppercase;
+}
+
+.btn-login:hover {
+    color: #263238 !important;
+    border-radius: 50px;
+    border-color: #263238 !important;
+    transition: all 0.3s ease 0s;
+}
+
+.btn-signup {
+    background-color: #0169EE;
+    color: aliceblue;
+}
+
+.btn-signup:hover {
+    /* background-color: #7bb4ff; */
+    color: #263238;
+    box-shadow: 0px 0 0 1px #263238, 2px 2px 4px 2px #263238;
+    background: #fff;
+}
+
+.jumbotron {
+    padding: 0 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #263238;
+    margin-top: 40px;
+}
+
+.jumbotron h1 {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 40px;
+}
+
+.jumbotron p {
+    font-weight: 500;
+    line-height: 24px;
+    width: 75%;
+}
+
+form .search {
+    width: 22rem;
+    height: 2.2rem;
+    border: 1px solid #1178ff;
+    border-radius: 5px;
+
+}
+
+form .search:focus {
+    border: 2px solid #0169EE;
+    outline: none;
+}
+
+form .btn-signup {
+    margin-left: -8px;
+}
+
+.content-1 .btn {
+    padding: 8px 20px 8px 20px;
+    text-decoration: none;
+    font-weight: 600;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+/* detail product */
+.detail-product {
+    margin-top: 22rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.detail-product .content-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+
+.detail-product .content-1 .title {
+    font-weight: 500;
+    font-size: 2.5rem;
+}
+
+.detail-product .content-1 .description {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: -12px;
+}
+
+.detail-product .content-2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: -60px;
+}
+
+.detail-product .content-2 .description {
+    text-align: justify;
+    width: 30%;
+    line-height: 1.8;
+    font-weight: 500;
+    font-size: large;
+}
+
+
+/* Testimonial.  */
+.testimonial {
+    margin-top: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.testimonial .content-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 3rem;
+}
+
+.testimonial .content-1 .title {
+    font-weight: 500;
+}
+
+.testimonial .content-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.testimonial .content-2 .client {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonial .content-2 p {
+    width: 75%;
+    text-align: center;
+    margin-top: -20px;
+    line-height: 1.8;
+}
+
+.testimonial .content-2 .avatar {
+    width: 128px;
+    height: 128px;
+    border-radius: 9999px;
+}
+
+
+
+/* Card Price */
+.pricing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pricing h2 {
+    font-weight: 500;
+    margin-top: 22rem;
+}
+
+.pricing .prices {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.pricing .prices .card-price {
+    padding: 2rem;
+    margin: 1rem 1rem 0 1rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    transition: 0.3s;
+    height: 350px;
+}
+
+.pricing .prices .card-price:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+    background-color: #263238;
+    color: #fff;
+}
+
+.pricing .prices .card-price .card-title {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    font-weight: 500;
+}
+
+.pricing .prices .card-pricing {
+    font-size: 1.5rem;
+    line-height: 3rem;
+    font-weight: 400;
+}
+
+.pricing .prices .card-pricing sup {
+    font-size: 0.875;
+    line-height: 1.25rem;
+    font-weight: 600;
+}
+
+.border {
+    border-color: #1178ff;
+    background-color: #1178ff;
+}
+
+.pricing .prices .card-price .list-price {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+}
+
+.pricing .prices .card-price .list-price li {
+    margin: 0.3rem 0 0.3rem 0;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+}
+
+/* Footer */
+footer>hr {
+    margin-top: 10rem;
+    border-color: #263238;
+    background-color: #263238;
+}
+
+footer>h5 {
+    text-align: center;
+}
